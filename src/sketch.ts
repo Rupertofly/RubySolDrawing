@@ -25,7 +25,6 @@ export default class Sketch {
     public  setup = async () =>  {
         console.log( new Date() );
         console.log('test2');
-        p.pixelDensity(p.displayDensity());
         p.createCanvas(
             window.innerWidth,
             window.innerHeight
